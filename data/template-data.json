@@ -1,0 +1,15 @@
+{
+	"navList": ["flats", "houses"],
+	"infoSection": {
+		"title": "Standmon Street",
+		"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure reiciendis distinctio tempore quisquam commodi aliquam ips aspernatur blanditiis atque porro quod, ipsum quas voluptatem! Adipisci porro labore incidunt voluptate harum.",
+		"button": "More about estate"
+	},
+	"statisticsSection": {
+		"statisticsList": {
+			"rooms": "03",
+			"area": "89",
+			"floor": "7"
+		}
+	}
+}
