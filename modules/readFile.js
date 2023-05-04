@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")({ sigint: true });
 const fs = require("fs");
 
 module.exports = (message, dirName) => {
-	let path = prompt(message);
+	let path = prompt(message).trim();
 	try {
 		const file = fs.readFileSync(`${dirName}/${path}`, "utf-8");
 		return file;
